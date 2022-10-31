@@ -1,3 +1,14 @@
+ul {
+  margin:0;
+  padding: 0px;
+}
+li, h3 {
+  list-style:none;
+}
+input,button{
+  outline:none;
+}
+
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
@@ -49,16 +60,7 @@
 /* .task-text {
   display: flex;
 } */
-ul {
-  margin:0;
-  padding: 0px;
-}
-li, h3 {
-  list-style:none;
-}
-input,button{
-  outline:none;
-}
+
 .button {
   background: none;
   border: 0px;
