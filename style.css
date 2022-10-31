@@ -2,22 +2,25 @@ ul {
   margin:0;
   padding: 0px;
 }
+
 li, h3 {
   list-style:none;
 }
+
 input,button{
   outline:none;
 }
 
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
-  
   display: block;
   text-align: right;
 }
@@ -25,17 +28,21 @@ input,button{
 .page__header {
   margin: 0 auto;
 }
+
 .header__image {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .header {
     text-align: center;
   }
+
 }
 
 .form {
@@ -44,22 +51,14 @@ input,button{
 }
 
 .page__form {
-  
   margin: 0 auto 0;
 }
-
-
-
 
 .add-tasks__task-text  {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-
-/* .task-text {
-  display: flex;
-} */
 
 .button {
   background: none;
@@ -74,14 +73,14 @@ input,button{
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
+
 .title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
-  
-  
+  border-bottom: 2px solid #333; 
   text-transform: uppercase;
 }
 
@@ -102,11 +101,13 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-text:focus {
   color: #333;
 }
 
 /* New Task */
+
  .form__add-tasks {
   display: block;
   margin: 0 0 20px;
@@ -119,9 +120,7 @@ input,button{
 /* Task list */
 .list {
   overflow: hidden;
- 
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -132,12 +131,11 @@ input,button{
   padding: 20px 0;
 }
 
-
 .list__checkbox  {
   margin: 0 10px;
 }
-.task-title {
- 
+
+.task-title { 
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
@@ -150,27 +148,31 @@ input,button{
 .task-text {
   width: 226px
 }
+
 .button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .tasks__list .list__task-title {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .tasks .list .task-text {
   display:none
 }
 
-.tasks .list.edit-mode .task-text  {
+.tasks .list.edit-mode .task-text {
   display:inline-block;
   width:224px
 }
