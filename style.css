@@ -164,7 +164,7 @@ button{
 
 /* Completed */
 
-.tasks__list .list__task-title {
+.form__done-tasks .list__task-title {
   text-decoration: line-through;
   color: #888;
 }
