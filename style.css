@@ -59,7 +59,7 @@ button{
 .add-tasks__task-text  {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .button {
@@ -149,7 +149,7 @@ button{
 }
 
 .task-text {
-  width: 226px
+  width: 226px;
 }
 
 .button__img {
@@ -172,7 +172,7 @@ button{
 /* Edit Task */
 
 .tasks .list .task-text {
-  display: none
+  display: none;
 }
 
 .tasks .list.edit-mode .task-text {
